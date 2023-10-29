@@ -1,47 +1,69 @@
-// Navbar.js
-// App.js
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-
-
-function Navbar() {
+function NavScrollExample() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="My app">My App</a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="home">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="our services">Our Services</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="contact us">Contact Us</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="Rate us">Rate Us</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="About">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar   data-bs-theme="dark" expand="lg" className="bg-body-tertiary"  >
+      <Container fluid >
+        <Navbar.Brand className="Brand" href="#">A-Z Smart-Delivery</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+           
+            <NavDropdown title="Services"  id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action2">Food Delivery</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">
+                Grocery Delivery
+              </NavDropdown.Item>
+             
+              <NavDropdown.Item href="#action4">
+               Electrician service
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+               Plumber Service
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+               Medicine delivery
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">
+                Some Errand Services
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#" >
+             Contact Us
+            </Nav.Link>
+            <Nav.Link href="#" >
+             Rate Our Service
+            </Nav.Link>
+            <Nav.Link href="#" >
+             FeedBack
+            </Nav.Link>
+            <Nav.Link href="#" >
+             Jobs
+            </Nav.Link>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default NavScrollExample;
