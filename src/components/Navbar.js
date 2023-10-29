@@ -6,11 +6,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Navbar.css";
 
+
 function NavScrollExample() {
   return (
+    
+    
     <Navbar  bg="primary"/* data-bs-theme="dark" */expand="lg"/* className="bg-body-tertiary"*/  >
       <Container fluid >
-        <Navbar.Brand className="Brand text-white" href="#" >A-Z Smart-Delivery</Navbar.Brand>
+        <Navbar.Brand className="Brand text-white font-weight-bold " href="#" >A-Z Smart-Delivery</Navbar.Brand>
         <Navbar.Toggle /*aria-controls="navbarScroll"*/ />
         <Navbar.Collapse /*id="navbarScroll"*/>
           <Nav
