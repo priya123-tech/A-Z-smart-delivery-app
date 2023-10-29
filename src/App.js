@@ -1,4 +1,3 @@
-
 // App.js
 import React from 'react';
 import Navbar from './components/Navbar'; // Import the Navbar component
@@ -6,7 +5,8 @@ import Navbar from './components/Navbar'; // Import the Navbar component
 function App() {
   return (
     <div>
-      <Navbar /> 
+      <Navbar /> {/* Use the Navbar component */}
+      {/* Other content of your app */}
     </div>
   );
 }
