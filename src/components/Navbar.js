@@ -13,7 +13,11 @@ function NavScrollExample() {
     
     <Navbar  bg="primary"/* data-bs-theme="dark" */expand="lg"/* className="bg-body-tertiary"*/  >
       <Container fluid >
-        <Navbar.Brand className="Brand text-white font-weight-bold  text-warning" href="#" >A-Z Smart-Delivery</Navbar.Brand>
+        <Navbar.Brand className="Brand text-white font-weight-bold  text-warning" href="#" ><img
+        src="https://res.cloudinary.com/dhsmbae5q/image/upload/v1698664447/vdlrttzvi9r0xql5xfbx.jpg"
+        alt="this is smart-delivery logo"
+        className="food-munch-logo"
+      /></Navbar.Brand>
         <Navbar.Toggle /*aria-controls="navbarScroll"*/ />
         <Navbar.Collapse /*id="navbarScroll"*/>
           <Nav

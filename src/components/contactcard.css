@@ -1,0 +1,28 @@
+/* ContactDetailsCard.css */
+
+.contact-card {
+    background-color: aqua;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    .contact-card {
+      padding: 10px;
+    }
+  }
+  
+  /* Responsive styles for larger screens */
+  @media (min-width: 769px) {
+    .contact-card {
+      padding: 20px;
+    }
+  }
+  

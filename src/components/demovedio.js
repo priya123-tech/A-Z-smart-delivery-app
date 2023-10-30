@@ -12,7 +12,7 @@ function DemoVedio() {
       <div>
         <ReactPlayer
           url="https://youtu.be/D9bwnJclcas?si=kVoZcTVtoVhgqUZY" // Replace with the URL of your video
-          controls
+          controls={true}
           width="100%"
           height="auto"
         />
