@@ -4,8 +4,9 @@ import NavScrollExample from './components/Navbar'; // Import the Navbar compone
 import IndividualIntervalsExample from './components/carousel.js'; // Import the carousel component
 import DemoVideo from './components/demovedio.js';
 import './App.css'; // Import your custom CSS for styling
-import ContactDetailsCard from './components/contactcard.js';
+import ContactDetailsCard from './components/contactUs.js';
 import BannerSection from './components/home.js';
+import  FollowUsSection from './components/followUs.js';
 function App() {
   return (
     <div >
@@ -21,6 +22,8 @@ function App() {
       <DemoVideo   />
       
       </div>
+      < FollowUsSection/>
+
       <ContactDetailsCard />
       
     </div>
