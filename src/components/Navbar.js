@@ -13,7 +13,7 @@ function NavScrollExample() {
     
     <Navbar  bg="primary"/* data-bs-theme="dark" */expand="lg"/* className="bg-body-tertiary"*/  >
       <Container fluid >
-        <Navbar.Brand className="Brand text-white font-weight-bold " href="#" >A-Z Smart-Delivery</Navbar.Brand>
+        <Navbar.Brand className="Brand text-white font-weight-bold  text-warning" href="#" >A-Z Smart-Delivery</Navbar.Brand>
         <Navbar.Toggle /*aria-controls="navbarScroll"*/ />
         <Navbar.Collapse /*id="navbarScroll"*/>
           <Nav

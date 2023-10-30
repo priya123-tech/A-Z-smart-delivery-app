@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+
+
+
+.video-container {
+  border: 1px solid #ccc; /* Add a border to separate the video */
+  border-radius: 20px;
+  border-color : blue;
+  margin:15px;
+}
+
+.carousel-container {
+  border: 1px solid blue; /* Add a border to separate the carousel */
+  margin: 15px; /* Add margin for spacing */
+  padding: 10px;
+}

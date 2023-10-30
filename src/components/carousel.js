@@ -14,7 +14,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={500}>
         <ExampleCarouselImage text="Second slide" url="https://res.cloudinary.com/dhsmbae5q/image/upload/v1698589398/k3iejltyajaypz5fownk.jpg"/>
         <Carousel.Caption>
-          <h3>Electrician and Plumber Service</h3>
+          <h3 >Electrician and Plumber Service</h3>
           <p>"Reliable local electrician and plumber services just a call away."</p>
         </Carousel.Caption>
       </Carousel.Item>
