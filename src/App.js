@@ -1,27 +1,27 @@
 // App.js
 import React from 'react';
 import NavScrollExample from './components/Navbar'; // Import the Navbar component
-import IndividualIntervalsExample from './components/carousel.js'; // Import the carousel component
-import DemoVideo from './components/demovedio.js';
+
 import './App.css'; // Import your custom CSS for styling
 import ContactDetailsCard from './components/contactUs.js';
 import BannerSection from './components/home.js';
 import  FollowUsSection from './components/followUs.js';
 import FoodDelivery from './components/foodDelivery.js';
+import MyCarousel from './components/NewCarousel.js';
+import FeedbackForm from './components/feedBack.js';
+import VideoCard from './components/demovideo.js';
 function App() {
   return (
     <div >
      
       <NavScrollExample/> 
       <BannerSection/>
-      {/* Use the Navbar component 
-     
-      <div className="carousel-container">
-      <IndividualIntervalsExample/>
-      </div>
-      {/* Use the Navbar component */}
       
-      <FoodDelivery/>
+      
+      <MyCarousel/>
+      < VideoCard videoURL = "https://youtu.be/PhPKAvFfLEE?si=M0-_6TVykwdfJsK4"/>
+      <FoodDelivery />
+      <FeedbackForm/>
       < FollowUsSection/>
 
       <ContactDetailsCard />

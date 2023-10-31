@@ -1,0 +1,45 @@
+/* MyCarousel.css */
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; /* Add margins for spacing between items */
+    padding: 20px; /* Add padding for spacing within items */
+    border: 1px solid #ccc; /* Add a border for a border effect */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: #f5f5f5; /* Optional: Background color for each item */
+  }
+  
+  .carousel-text {
+    margin-top: 10px; /* Add spacing between the image and text */
+  }
+  
+  .carousel-text {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    font-size: 18px; /* Change the font size */
+    text-align: center; /* Center align the text */
+    color: #333; /* Change the text color */
+    font-weight: bold; /* Optional: Add bold font weight */
+  }
+  
+  .main-heading {
+    margin-top:20px;
+    font-family: "Roboto";
+    font-size: 42px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin between the heading and the carousel */
+  }
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 20px;
+    border: 1px solid #1c22c9;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+  }

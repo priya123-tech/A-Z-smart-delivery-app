@@ -89,6 +89,36 @@ const FoodDelivery = () => {
              
             </div>
           </div>
+          <div className="col-12 col-md-6 col-lg-3">
+            <div className="menu-item-card shadow p-3 mb-3">
+              <img alt = ""
+                src="https://res.cloudinary.com/dhsmbae5q/image/upload/v1698592215/b3tbp3gv73ehy9autxzf.jpg"
+                className="menu-item-image w-100"
+              />
+              <h1 className="menu-card-title">Delivering pharmacy essentials right to your door, for your convenience.</h1>
+             
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-3">
+            <div className="menu-item-card shadow p-3 mb-3">
+              <img alt = ""
+                src="https://res.cloudinary.com/dhsmbae5q/image/upload/v1698589398/k3iejltyajaypz5fownk.jpg"
+                className="menu-item-image w-100"
+              />
+              <h1 className="menu-card-title">For our valued customers, we offer electrician services</h1>
+             
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-3">
+            <div className="menu-item-card shadow p-3 mb-3">
+              <img alt = ""
+                src="https://res.cloudinary.com/dhsmbae5q/image/upload/v1698762004/fif3c04cqzlxtqkfs5vh.jpg"
+                className="menu-item-image w-100"
+              />
+              <h1 className="menu-card-title">For our valued customers, we offer plumber  services</h1>
+             
+            </div>
+          </div>
         </div>
       </div>
     </div>
