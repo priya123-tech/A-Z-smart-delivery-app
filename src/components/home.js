@@ -1,5 +1,6 @@
 import React from 'react';
 import "./home.css";
+const phoneNumber = '+91 8121784826';
 
 function BannerSection() {
     return (
@@ -13,6 +14,12 @@ function BannerSection() {
                 <a href="#deliveryPaymentSection" title="here you will get the payment option">
                     <button className="custom-outline-button">Order Now</button>
                 </a>
+                <h1 className=" footer-section-mail-id  text-center">
+                            <h3 className = "text-white">Contact</h3>
+                            <a className = "text-white" href={`tel:${phoneNumber}`}>{phoneNumber}</a>
+                        </h1>
+                       
+
             </div>
         </div>
     );

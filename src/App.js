@@ -7,21 +7,21 @@ import './App.css'; // Import your custom CSS for styling
 import ContactDetailsCard from './components/contactUs.js';
 import BannerSection from './components/home.js';
 import  FollowUsSection from './components/followUs.js';
+import FoodDelivery from './components/foodDelivery.js';
 function App() {
   return (
     <div >
      
       <NavScrollExample/> 
-      {/* Use the Navbar component */}
       <BannerSection/>
+      {/* Use the Navbar component 
+     
       <div className="carousel-container">
       <IndividualIntervalsExample/>
       </div>
       {/* Use the Navbar component */}
-      <div className="video-container">
-      <DemoVideo   />
       
-      </div>
+      <FoodDelivery/>
       < FollowUsSection/>
 
       <ContactDetailsCard />
