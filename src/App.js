@@ -12,7 +12,7 @@ import FeedbackForm from './components/feedBack.js';
 import VideoCard from './components/demovideo.js';
 function App() {
   return (
-    <div  className = "container">
+    <div >
      
       <NavScrollExample/> 
       <BannerSection/>

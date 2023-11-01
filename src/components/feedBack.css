@@ -1,5 +1,5 @@
 .feedback-container {
-    background-color: #23e830;
+    background-color: #00b7eb;
     padding: 20px;
     border-radius: 10px;
     width: 100vw;
@@ -22,7 +22,7 @@
   }
   
   .submit-button {
-    background-color: #e147a4;
+    background-color:#ff6fff ;
     color: white;
     border: none;
     border-radius: 5px;
@@ -31,6 +31,6 @@
   }
   
   .submit-button:hover {
-    background-color: #0056b3;
+    background-color:4BF1EE;
   }
   
