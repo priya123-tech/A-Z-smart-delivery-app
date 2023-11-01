@@ -51,9 +51,11 @@ const DeliveryServiceForm = () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="submit-button">
+        <div style={{ textAlign: 'center' }}>
+        <button   type="submit" className="submit-button ">
           Submit
         </button>
+        </div>
       </form>
     </div>
   );

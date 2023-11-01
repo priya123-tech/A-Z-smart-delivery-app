@@ -6,8 +6,8 @@
     padding: 20px;
     border: 1px solid #3825c7;
     border-radius: 10px;
-    background-color:#bfc1c2;
-    
+    background-color:#004280;
+    color :#fff;
     box-shadow: 10px;
   }
   
@@ -45,10 +45,9 @@
   
   /* Submit button styles */
   .submit-button {
-    display: block;
-    width: 100%;
+    
     padding: 10px;
-    background-color:#555555;
+    background-color:#3399ff;
     color: #fff;
     border: none;
     border-radius: 5px;
