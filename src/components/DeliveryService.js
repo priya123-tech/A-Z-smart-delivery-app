@@ -1,5 +1,5 @@
 import React from 'react';
-import './foodDelivery.css'
+import './DeliveryService.css'
 
 const FoodDelivery = () => {
   return (

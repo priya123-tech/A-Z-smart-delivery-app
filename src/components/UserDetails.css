@@ -1,0 +1,69 @@
+/* Styles for the delivery service card component */
+.delivery-service-card {
+  margin-top: 30px;
+    max-width: 400px;
+  
+    padding: 20px;
+    border: 1px solid #3825c7;
+    border-radius: 10px;
+    background-color:#bfc1c2;
+    
+    box-shadow: 10px;
+  }
+  
+  /* Heading styles */
+  .delivery-service-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  /* Submit button styles */
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:#555555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .delivery-service-card {
+      max-width: 100%;
+    }
+  }
+  
