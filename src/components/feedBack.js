@@ -19,6 +19,15 @@ function FeedbackForm() {
     // Provide some user feedback after submission (you can customize this part)
     alert('Thank you for your feedback!');
   };
+  // Retrieve user feedback details from local storage
+const feedbackData = localStorage.getItem('feedbackData');
+
+// Parse the JSON data (if it was stored as a JSON string)
+const feedbackDetails = JSON.parse(feedbackData);
+
+// Now, you can access the feedback details
+console.log(feedbackDetails);
+
 
   return (
     <div className="feedback-container">
@@ -35,6 +44,7 @@ function FeedbackForm() {
         </button>
       </form>
     </div>
+    
   );
 }
 
